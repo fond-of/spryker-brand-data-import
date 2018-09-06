@@ -30,7 +30,7 @@ class BrandDataImportPlugin extends AbstractPlugin implements DataImportPluginIn
     /**
      * @return string
      */
-    public function getImportType()
+    public function getImportType(): string
     {
         return BrandDataImportConfig::IMPORT_TYPE_BRAND;
     }
