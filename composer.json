@@ -1,0 +1,36 @@
+{
+  "name": "fond-of-spryker/brand-data-import",
+  "description": "Spryker brand data import module.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    },
+    {
+      "name": "Felix Pfister",
+      "email": "felix@pfister.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "fond-of-spryker/brand": "dev-master",
+    "spryker/data-import": "^1.3.0",
+    "spryker/kernel": "^3.0.0",
+    "spryker/propel-orm": "^1.0.0"
+  },
+  "require-dev": {
+    "spryker/code-sniffer": "*",
+    "spryker/testify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FondOfSpryker\\": "src/FondOfSpryker/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}
