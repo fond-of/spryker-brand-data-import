@@ -1,4 +1,4 @@
-name,is_active,b2c_url_shop,logo_url_small,logo_url_large
+name,is_active,url,logo_url_small,logo_url_large
 Affenzahn,1,"https://www.affenzahn.com","",""
 ergobag,1,"https://www.ergobag.com","",""
 satch,1,"https://www.satch.com","",""
