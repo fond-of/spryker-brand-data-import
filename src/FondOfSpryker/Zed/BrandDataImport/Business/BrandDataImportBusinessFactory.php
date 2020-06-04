@@ -1,10 +1,5 @@
 <?php
 
-/**
- * MIT License
- * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
- */
-
 namespace FondOfSpryker\Zed\BrandDataImport\Business;
 
 use FondOfSpryker\Zed\BrandDataImport\Business\Model\BrandWriterStep;

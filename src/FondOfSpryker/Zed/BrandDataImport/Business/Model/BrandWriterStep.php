@@ -1,10 +1,5 @@
 <?php
 
-/**
- * MIT License
- * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
- */
-
 namespace FondOfSpryker\Zed\BrandDataImport\Business\Model;
 
 use Orm\Zed\Brand\Persistence\FosBrandQuery;
@@ -17,8 +12,8 @@ use Spryker\Zed\DataImport\Business\Model\DataSet\DataSetInterface;
  */
 class BrandWriterStep extends PublishAwareStep implements DataImportStepInterface
 {
-    const BULK_SIZE = 100;
-    const KEY_NAME = 'name';
+    protected const BULK_SIZE = 100;
+    protected const KEY_NAME = 'name';
 
     /**
      * @param \Spryker\Zed\DataImport\Business\Model\DataSet\DataSetInterface $dataSet

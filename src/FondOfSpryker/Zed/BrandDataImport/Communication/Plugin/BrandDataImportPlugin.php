@@ -1,10 +1,5 @@
 <?php
 
-/**
- * MIT License
- * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
- */
-
 namespace FondOfSpryker\Zed\BrandDataImport\Communication\Plugin;
 
 use FondOfSpryker\Zed\BrandDataImport\BrandDataImportConfig;
@@ -14,6 +9,7 @@ use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 
 /**
  * @method \FondOfSpryker\Zed\BrandDataImport\Business\BrandDataImportFacadeInterface getFacade()
+ * @method \FondOfSpryker\Zed\BrandDataImport\BrandDataImportConfig getConfig()
  */
 class BrandDataImportPlugin extends AbstractPlugin implements DataImportPluginInterface
 {

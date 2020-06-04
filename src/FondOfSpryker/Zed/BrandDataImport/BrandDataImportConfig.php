@@ -1,17 +1,12 @@
 <?php
 
-/**
- * MIT License
- * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
- */
-
 namespace FondOfSpryker\Zed\BrandDataImport;
 
 use Spryker\Zed\DataImport\DataImportConfig;
 
 class BrandDataImportConfig extends DataImportConfig
 {
-    const IMPORT_TYPE_BRAND = 'brand';
+    public const IMPORT_TYPE_BRAND = 'brand';
 
     /**
      * @return \Generated\Shared\Transfer\DataImporterConfigurationTransfer
