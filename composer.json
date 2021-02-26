@@ -20,6 +20,7 @@
     "spryker/propel-orm": "^1.0.0"
   },
   "require-dev": {
+    "fond-of-codeception/spryker": "^1.0",
     "mikey179/vfsstream": "^1.6",
     "spryker/code-sniffer": "*",
     "spryker/testify": "*"
